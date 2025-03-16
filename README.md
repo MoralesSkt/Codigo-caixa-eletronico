@@ -32,7 +32,7 @@ senao se(opcao == 2){
   
   escreva ("Saindo...\n")
 
-pare!
+PARE
 
 }
 
