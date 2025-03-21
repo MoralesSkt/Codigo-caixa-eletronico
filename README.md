@@ -17,12 +17,19 @@ se(opcao == 1){
     escreva("Seu saldo atual é R$ ", saldo, "\n")
 }
 senao se(opcao == 2){
+   
     escreva("Digite o valor para saque: ")
+   
     leia(saque)
+    
     se(saque>saldo)
+    
     escreva ("Valor para saque insuficiente, por favor selecione um valor para saque")
+    
     se(saque<saldo)
+   
     escreva("Saque realizado com sucesso!\n")
+    
     saldo = saldo - saque
 
      escreva("Seu novo saldo agora é de" ,saldo, "\n")
